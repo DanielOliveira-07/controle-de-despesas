@@ -17,9 +17,12 @@ const addTransactionIntoDOM = transaction => {
     li.innerHTML = '
        ${transaction.name} <span>${operator} R$ ${Math.abs(transaction.amount)}</span><button class="delete-btn">x</button>
     '
-
+    console.log(li)
    
 }
 
 
 addTransactionIntoDOM(dummyTransactions[1])
+
+
+https://www.youtube.com/watch?v=xarRciYWT5Q

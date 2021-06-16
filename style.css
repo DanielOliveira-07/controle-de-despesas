@@ -29,14 +29,21 @@ body {
 }
 
 .container {
-  margin: 30px auto;
+  margin: 10px 0 10px;
   width: 350px;
 }
+
 
 h1 {
   letter-spacing: 1px;
   margin: 0;
   color: #2e75cc;
+}
+
+h2 {
+  margin: 10px 0 40px;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
